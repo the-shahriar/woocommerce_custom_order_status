@@ -1,6 +1,4 @@
 # woocommerce_custom_order_status
-// Custom Order Status
-
 
 add_filter( 'bulk_actions-edit-shop_order', 'newoprocessed_dropdown_bulk_actions_shop_order');
 function newoprocessed_dropdown_bulk_actions_shop_order( $actions ) {
